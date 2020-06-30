@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   const query = req.body.cityName;
-  const apiKey = { Inser_API_Key };
+  const apiKey = { Insert_API_Key };
   const unit = req.body.unitList;
 
   if (unit == "Celsius") {
